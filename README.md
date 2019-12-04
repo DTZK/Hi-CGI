@@ -1,6 +1,5 @@
 # Hi-CGI
 #For GCI
-
 use std::io;
 
 fn main(){
