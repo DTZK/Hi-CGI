@@ -18,7 +18,6 @@ fn main(){
         Err(e) => println!("Sorry, {}", e)
     }
 }
-
 fn get_length(l: & str)-> usize{
      l.chars().count()
 }
