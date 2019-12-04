@@ -1,7 +1,7 @@
 # Hi-CGI
 #For GCI
 use std::io;
-
+use std::fs::File;
 fn main(){
     let introduction = {"Hello, GCI"};
     let size = get_length(&introduction);
